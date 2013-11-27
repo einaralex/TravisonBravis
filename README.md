@@ -6,7 +6,7 @@ Simple script for Travis-CI to push a succesful build onto another branch
 #HOW TO#
 
 1. Install Travis `gem install travis`
-2. Go to your [Travis-CI](https://travis-ci.org/profile) and enable your repository.
+2. Go to your [Travis-CI](https://travis-ci.org/profile) profile and enable your repository.
 3. Go to your GitHub repository settings > Service Hooks > Travis and choose Update settings.
 4. Go to your [GitHub](https://github.com/settings/applications) profile settings > Applications > Personal Access Tokens and choose Create new token.
 
