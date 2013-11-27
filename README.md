@@ -31,6 +31,7 @@ Replace .travis.yml with your settings.
 - GH_EMAIL="example@email.com"
 - DEVELOPMENT="branch1"
 - SUCCESSFUL="branch2" 
+- REMOTE="origin"
 ```
 
 ```
