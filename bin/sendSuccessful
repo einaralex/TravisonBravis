@@ -1,0 +1,4 @@
+git fetch origin '+refs/heads/*:refs/heads/*'
+git checkout travisOK
+git reset --hard master
+git push origin travisOK
