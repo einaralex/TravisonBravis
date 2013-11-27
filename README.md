@@ -3,7 +3,7 @@ TravisonBravis
 
 Simple script for Travis-CI to push a succesful build onto a another branch
 
-#HOW TO#
+###Guide###
 
 1. Install Travis `gem install travis`
 2. Go to your [Travis-CI](https://travis-ci.org/profile) and enable your repository.
