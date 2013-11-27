@@ -16,29 +16,30 @@ Simple script for Travis-CI to push a succesful build onto a another branch
     
     It will then show up in your .travis.yml file.
     
-```
-env:
-    global:
-      - secure: yourencryptedtokenhere
-```
-6. Replace .travis.yml with your settings.
 
 
+        env:
+            global:
+            - secure: yourencryptedtokenhere
+        
 
-```
-- GH_REPO="username/yourrepo"
-- GH_NAME="username"
-- GH_EMAIL="example@email.com"
-- DEVELOPMENT="working-branch"
-- SUCCESSFUL="success-branch" 
-- REMOTE="origin"
-```
 
-```
-branches:
-  only: 
-  - working-branch
-```
+6.  Replace .travis.yml with your settings.
+
+
+    
+        branches:
+            only: 
+            - working-branch
+ 
+ 
+        - GH_REPO="username/yourrepo"
+        - GH_NAME="username"
+        - GH_EMAIL="example@email.com"
+        - DEVELOPMENT="working-branch"
+        - SUCCESSFUL="success-branch" 
+        - REMOTE="origin"
+
  
 
 and you're good to go!
