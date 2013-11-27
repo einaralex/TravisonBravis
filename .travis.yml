@@ -4,7 +4,7 @@ python:
 
 branches:
   only: 
-  - master
+  - master #Also remember to replace this with the name of your working-branch/DEVELOPMENT
 
 script: echo "sample"
 
