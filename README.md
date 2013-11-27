@@ -29,15 +29,15 @@ Replace .travis.yml with your settings.
 - GH_REPO="username/yourrepo"
 - GH_NAME="username"
 - GH_EMAIL="example@email.com"
-- DEVELOPMENT="branch1"
-- SUCCESSFUL="branch2" 
+- DEVELOPMENT="working-branch"
+- SUCCESSFUL="success-branch" 
 - REMOTE="origin"
 ```
 
 ```
 branches:
   only: 
-  - branch1
+  - working-branch
 ```
  
 
