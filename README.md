@@ -21,7 +21,7 @@ env:
     global:
       - secure: yourencryptedtokenhere
 ```
-Replace .travis.yml with your settings.
+6. Replace .travis.yml with your settings.
 
 
 
