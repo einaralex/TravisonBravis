@@ -26,7 +26,7 @@ notifications:
 
 env:
   global:
-  - GH_REPO="${GH_NAME}/TravisonBravis"
+  - GH_REPO="einaralex/TravisonBravis"
   - secure: GHC2n15UEext9i+OOySkZj5FQFQHCETCwIhIrsZY3ahoT9l9EM3iSFzNI+X0zDOAYp8+pDSxno8TwRZs3rxhHwdLihRAxU4B9FqCAOjUd7oVTr+G11bpnu/roZ6dLr01LfjWJZyvnGGAxTjb8jzHlpPi/EtDL4D+sDFnyRc+tMU=
   - secure: IJbLnhOFFCK2rcyCl6HbsW1JpfzkA4lNO7RBfCfq4T0FO+ROulRNzPi3BkIyZ8ccwT7+xnf73pqHbiz+QGM/Uv64VF6U+T8VNpDpu5c8jRiGr0do8h9BBjIsr8jLuXdrYX5VdpmFcVfnJjkyDVtTdMnXEtVaZ7eW6LVWsj6Y8dY=
   - secure: fM0l9HHLmlCgInbxTxGlPPDFlK9EP+Fe1MYp9jFv83iZ/QS6YaOMsD+prFWyZlqn4dGboIiRSCf3a17dPF20wi4bnsjcZxQlha5aNQGm6+Jc0GK9xjmlCECi0xMEkt5on1OOPOftgnC9nyb/qmomk0Tjbg8JmMIFiyFQ4jKx+BY=
