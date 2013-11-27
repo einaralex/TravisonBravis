@@ -25,3 +25,4 @@ env:
   - DEVELOPMENT="master"
   - SUCCESSFUL="travisOK"
   - secure: GHC2n15UEext9i+OOySkZj5FQFQHCETCwIhIrsZY3ahoT9l9EM3iSFzNI+X0zDOAYp8+pDSxno8TwRZs3rxhHwdLihRAxU4B9FqCAOjUd7oVTr+G11bpnu/roZ6dLr01LfjWJZyvnGGAxTjb8jzHlpPi/EtDL4D+sDFnyRc+tMU=
+  	# this line is the encrypted key for GH_TOKEN
