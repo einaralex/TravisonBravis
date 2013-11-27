@@ -4,7 +4,7 @@ python:
 
 branches:
   only: 
-  - $DEVELOPMENT
+  - master
 
 script: echo "sample"
 
