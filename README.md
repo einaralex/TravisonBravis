@@ -19,7 +19,7 @@ Simple script for Travis-CI to push a succesful build onto a another branch
 ```
 env:
     global:
-      - secure: yourtokenhere
+      - secure: yourencryptedtokenhere
 ```
 Replace .travis.yml with your settings.
 
