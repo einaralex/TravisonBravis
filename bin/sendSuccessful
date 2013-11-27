@@ -1,4 +1,4 @@
 git fetch origin '+refs/heads/*:refs/heads/*'
-git checkout $SUCCESSFUL	   # travisOK
-git reset --hard $DEVELOPMENT  # master
+git checkout $SUCCESSFUL
+git reset --hard $DEVELOPMENT
 git push origin $SUCCESSFUL
